@@ -91,6 +91,7 @@ This repository includes three files to support consistent Swedish translations 
 - **`.github/copilot-instructions.md`** – Permanent instructions for GitHub Copilot on how to retrieve, translate, review and validate archetypes, including handling existing translations and translator metadata.
 - **`translation-guidelines/swedish-guidelines.md`** – Swedish openEHR translation guidelines, adapted for use by AI agents.
 - **`translation-guidelines/standard-translations.md`** – Approved standard translations for commonly used openEHR terms and fields.
+
 Copilot is instructed to read and follow these files during translation and review tasks. This means users only need to specify the archetype ID in their prompt rather than provide the translation guidelines each time.
 All AI-generated translations must be reviewed by a human before publication in CKM.
 
@@ -116,6 +117,7 @@ For an openEHR task like translating, you can explicitly ask the assistant to us
 
 Use the openEHR MCP to retrieve the existing archetype [ARCHETYPE ID].
 Follow the repository's Copilot instructions and Swedish translation guidelines.
+If Swedish translator metadata is missing, ask me for the translator's name, organisation, and email address before finalising the file.
 Determine whether the archetype is untranslated, partially translated, or fully translated. Create, complete, or review and correct its Swedish translation accordingly.
 Preserve the archetype's technical structure and existing correct translations.
 Save the resulting ADL file in import-landing-zone without overwriting an existing file.
