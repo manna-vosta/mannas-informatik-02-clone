@@ -46,6 +46,7 @@ Dessa tabeller återger projektets tillhandahållna standarder. "Standard" ska f
 | datetime; date/time | tidpunkt | I den avsedda betydelsen; bevara tekniska datatyper |
 | clinician | vårdpersonal | Kontextberoende: ibland läkare |
 | container | behållare | Standard i relevant kontext |
+| to record | att registrera | Standard i relevant kontext |
 | device | utrustning | Standard i relevant kontext |
 | element; data element | datafält | Standard |
 | explicitly | explicit | Anpassa grammatiskt |
